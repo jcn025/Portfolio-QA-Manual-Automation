@@ -27,24 +27,20 @@ tech-lab-portfolio Julieta Cosentino/
 ## ⚡ Cómo ejecutar tests automatizados con Cypress
 
 1. *Clonar el repositorio:*
-   ```bash
+   
    git clone https://github.com/jcn025/tech-lab-portfolio.git
 
 2. Instalar dependencias:
 
-npm install
+npm init -y
 
+3. Instalar Cypress
+   
+npm i cypress
 
 3. Abrir Cypress (interfaz gráfica):
 
-npm run cypress:open
-
-
-4. Ejecutar tests en consola:
-
-npm run cypress:run
-
-
+npm run test
 
 > Los tests automatizados se encuentran en tests/automated/.
 
