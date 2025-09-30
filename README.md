@@ -22,7 +22,6 @@ Este proyecto se realiza en un **entorno exclusivamente educativo** con fines de
 * **Fundamentos de QA:** Capacidad para elaborar documentación funcional (Historias de Usuario, Casos de Prueba, Reportes de Defectos).
 * **Diseño de Pruebas:** Implementación de casos de prueba positivos y negativos.
 * **Automatización E2E:** Desarrollo de pruebas de extremo a extremo utilizando **Cypress** con **JavaScript**.
-* **Mantenibilidad del Código:** Implementación de la estructura base para el patrón **Page Object Model (POM)** en el código de automatización (ver `cypress/`).
   
 ## 📂 Contenido del Repositorio
 
