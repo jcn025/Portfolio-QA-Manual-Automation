@@ -36,7 +36,7 @@ Este proyecto se realiza en un **entorno exclusivamente educativo** con fines de
 
 
 1. Clonar el Repositorio:
-   git clone [TU_URL_DE_GITHUB.git]
+   git clone https://github.com/jcn025/Portfolio-QA-Manual-Automation.git
 3. Instalar Dependencias:
    npm install
 5. Ejecutar Pruebas E2E (Terminal):
