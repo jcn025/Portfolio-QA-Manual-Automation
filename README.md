@@ -1,19 +1,32 @@
-# 🚀 Tech Lab - Portfolio Julieta Cosentino
+# 🚀 Talento Lab - Portfolio Julieta Cosentino
 
-Este repositorio contiene el portfolio de pruebas automatizadas del proyecto *"Tech Lab"*.  
-Incluye *casos de prueba manuales y automatizados (Cypress)*, documentación y reportes de hallazgos.  
-El objetivo es *demostrar competencias en QA, testing funcional, pruebas de seguridad y experiencia de usuario (UX)*.
+## Portfolio QA: De Pruebas Manuales a Automatización (Cypress/JS)
+
+Este repositorio contiene la **evidencia QA integral** para la aplicación de prueba **Talentolab** (enlace: https://talentolab-test.netlify.app/).
+
+El proyecto demuestra mi capacidad para abordar un ciclo completo de QA, desde la **documentación funcional** y el **diseño de casos de prueba manuales**, hasta la **implementación de soluciones de automatización E2E** con foco en la mantenibilidad.
+
+---
+
+## 🛡️ Ética y Alcance del Testing
+
+Este proyecto se realiza en un **entorno exclusivamente educativo** con fines de **desarrollo de portfolio QA**.
+
+* **Alcance:** El testing se limita a la funcionalidad pública de la aplicación.
+* **Privacidad:** No se han utilizado ni comprometido datos sensibles, información personal o credenciales reales de usuarios.
 
 ---
 
-## ⚠ Ethical Testing
+## 🎯 Demostración de Competencias Clave
 
-Todos los casos de prueba fueron realizados sobre un proyecto educativo con fines exclusivamente de aprendizaje.  
-❌ No se incluyen datos sensibles ni información real de usuarios.  
-Este contenido fue elaborado en el marco del desarrollo del *portfolio personal de QA*.
-
----
+* **Fundamentos de QA:** Capacidad para elaborar documentación funcional (Historias de Usuario, Casos de Prueba, Reportes de Defectos).
+* **Diseño de Pruebas:** Implementación de casos de prueba positivos y negativos.
+* **Automatización E2E:** Desarrollo de pruebas de extremo a extremo utilizando **Cypress** con **JavaScript**.
+* **Mantenibilidad del Código:** Implementación de la estructura base para el patrón **Page Object Model (POM)** en el código de automatización (ver `cypress/`).
+  
 ## 🗂 Estructura del repositorio
+
+---
 
 tech-lab-portfolio Julieta Cosentino/
 │
