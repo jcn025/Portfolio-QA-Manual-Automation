@@ -24,38 +24,26 @@ Este proyecto se realiza en un **entorno exclusivamente educativo** con fines de
 * **Automatización E2E:** Desarrollo de pruebas de extremo a extremo utilizando **Cypress** con **JavaScript**.
 * **Mantenibilidad del Código:** Implementación de la estructura base para el patrón **Page Object Model (POM)** en el código de automatización (ver `cypress/`).
   
-## 🗂 Estructura del repositorio
+## 📂 Contenido del Repositorio
 
 ---
 
-tech-lab-portfolio Julieta Cosentino/
-│
-├─ docs/             📄 documentación general, screenshots, reportes
-├─ tests/
-│   ├─ manual/       📝 casos de prueba manuales por HU / feature
-│   └─ automated/    ⚡ tests automatizados con Cypress
-└─ README.md         📖 guía y descripción del proyecto
+
 
 ---
-## ⚡ Cómo ejecutar tests automatizados con Cypress
+## ⚡ Instrucciones de ejecución
 
-1. *Clonar el repositorio:*
-   
-   git clone https://github.com/jcn025/tech-lab-portfolio.git
 
-2. Instalar dependencias:
 
-npm init -y
+1. Clonar el Repositorio:
+   git clone [TU_URL_DE_GITHUB.git]
+3. Instalar Dependencias:
+   npm install
+5. Ejecutar Pruebas E2E (Terminal):
+   npx cypress run --spec "cypress/e2e/US-2 F4.-test.cy.js"
 
-3. Instalar Cypress
-   
-npm i cypress
 
-3. Abrir Cypress (interfaz gráfica):
-
-npm run test
-
-> Los tests automatizados se encuentran en tests/automated/.
+---
 
 
 
