@@ -1,0 +1,15 @@
+{
+  "name": "tests-automated",
+  "version": "1.0.0",
+  "description": "",
+  "main": "US-2 F4.-test.cy.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^15.3.0"
+  }
+}
