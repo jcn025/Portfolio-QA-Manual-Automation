@@ -46,7 +46,7 @@ Evidencia en Video: Enlaces directos a los videos de Vimeo que demuestran la rep
 
 Capturas de Pantalla: Archivos de imagen incrustados en los reportes de Markdown que muestran la evidencia estática de los fallos.
 
-03. 04_Evidencias_Automation
+03. 03_Evidencias_Automation
 
    Esta carpeta contiene capturas de pantalla de las pruebas automatizadas (terminal)
 
