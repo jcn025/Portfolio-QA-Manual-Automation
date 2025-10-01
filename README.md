@@ -53,6 +53,7 @@ Capturas de Pantalla: Archivos de imagen incrustados en los reportes de Markdown
    npm install
 3. Ejecutar Pruebas E2E (Terminal):
    npx cypress run --spec "cypress/e2e/US-2 F4.-test.cy.js"
+   npx cypress run --spec "HU-2 CA2 RF2.cy.js"
 
 
 ---
