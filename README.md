@@ -34,6 +34,8 @@ Requerimientos.pdf	Documento que detalla las Épicas (Contacto y Registro), las 
 Casos de prueba.pdf	Matriz de Casos de Prueba (CP) con trazabilidad a los requerimientos (ej: US-1 F1., US-2 F3.). La matriz incluye los pasos detallados, el Resultado Esperado y el Estado de Ejecución de cada prueba (Pasó/Falló).
 
 Reporte_Primer_Bug.md	Reporte de un bug de Severidad Mayor y Prioridad Alta. Documenta el fallo en el formulario de Contacto, donde la aplicación expone un error de código sin procesar en la interfaz.
+
+
 Reporte_Segundo_Bug.md	Reporte de un bug de Severidad Crítica y Prioridad Crítica. Detalla la violación a la seguridad (US-3) por la omisión de validación de contraseña, permitiendo el registro con credenciales débiles.
 
 2. 02_Evidencia_Bugs
@@ -44,6 +46,10 @@ Evidencia en Video: Enlaces directos a los videos de Vimeo que demuestran la rep
 
 Capturas de Pantalla: Archivos de imagen incrustados en los reportes de Markdown que muestran la evidencia estática de los fallos.
 
+03. 03_Evidencias_Automation
+
+   Esta carpeta contiene capturas de pantalla de las pruebas automatizadas (terminal)
+
 ---
 ## ⚡ Instrucciones de ejecución
 
@@ -52,7 +58,10 @@ Capturas de Pantalla: Archivos de imagen incrustados en los reportes de Markdown
 2. Instalar Dependencias:
    npm install
 3. Ejecutar Pruebas E2E (Terminal):
+   
    npx cypress run --spec "cypress/e2e/US-2 F4.-test.cy.js"
+   
+   npx cypress run --spec "cypress/e2e/HU-2 CA2 RF2.cy.js"
 
 
 ---
