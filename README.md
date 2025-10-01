@@ -1,4 +1,4 @@
-# 🚀 Talento Lab - Portfolio Julieta Cosentino
+# 🚀 TalentoLab - Portfolio Julieta Cosentino
 
 ## Portfolio QA: De Pruebas Manuales a Automatización (Cypress/JS)
 
