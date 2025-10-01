@@ -35,6 +35,7 @@ Casos de prueba.pdf	Matriz de Casos de Prueba (CP) con trazabilidad a los requer
 
 Reporte_Primer_Bug.md	Reporte de un bug de Severidad Mayor y Prioridad Alta. Documenta el fallo en el formulario de Contacto, donde la aplicación expone un error de código sin procesar en la interfaz.
 
+
 Reporte_Segundo_Bug.md	Reporte de un bug de Severidad Crítica y Prioridad Crítica. Detalla la violación a la seguridad (US-3) por la omisión de validación de contraseña, permitiendo el registro con credenciales débiles.
 
 2. 02_Evidencia_Bugs
