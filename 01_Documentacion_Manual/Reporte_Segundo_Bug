@@ -1,5 +1,5 @@
 # Reporte de Bug: 
-Fallo Crítico: El Sistema Permite el Registro con Contraseñas Inválidas.  (US-2 F3 RF3)
+Fallo Crítico: El Sistema Permite el Registro con Contraseñas Inválidas.  (HU-3 RF3 ME3)
 
 🖥️Entorno: Web 
 Versión del navegador: Microsoft Edge Versión 139.0.3405.86 (Compilación oficial) (64 bits)
@@ -25,7 +25,7 @@ Estar en la sección de registro y contar con un archivo PDF para cargar.
 8. Dar clic al botón “Registrarse”.
 
 ❌Resultado actual
-El proceso de registro finaliza exitosamente y el usuario es redirigido a la página de inicio, a pesar de usar una contraseña no válida. No se muestra ningún aviso o mensaje de error.
+El proceso de registro finaliza exitosamente y a pesar de usar una contraseña no válida. No se muestra ningún aviso o mensaje de error.
 
 ✅Resultado esperado
 El sistema debe impedir el registro y mostrar un mensaje de error claro indicando los requisitos mínimos de la contraseña.
@@ -35,7 +35,7 @@ Video:
 https://vimeo.com/1122370088?share=copy
 
 Captura de pantalla: 
-(Evidencias_Bugs/Evidencia_Imagen_Bug_US2_F3_RF3)
+(Evidencias_Bugs/Evidencia_Imagen_Bug_HU-3 RF3 ME3)
 
 📊Estado
 Abierto
