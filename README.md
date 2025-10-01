@@ -49,9 +49,9 @@ Capturas de Pantalla: Archivos de imagen incrustados en los reportes de Markdown
 
 1. Clonar el Repositorio:
    git clone https://github.com/jcn025/Portfolio-QA-Manual-Automation.git
-3. Instalar Dependencias:
+2. Instalar Dependencias:
    npm install
-5. Ejecutar Pruebas E2E (Terminal):
+3. Ejecutar Pruebas E2E (Terminal):
    npx cypress run --spec "cypress/e2e/US-2 F4.-test.cy.js"
 
 
