@@ -2,7 +2,7 @@
 
 ## Portfolio QA: De Pruebas Manuales a Automatización (Cypress/JS)
 
-Este repositorio contiene la **evidencia QA integral** para la aplicación de prueba **Talentolab** (enlace: https://talentolab-test.netlify.app/).
+Este repositorio contiene la **evidencia QA integral** para la Web de prueba **Talentolab** (enlace: https://talentolab-test.netlify.app/).
 
 El proyecto demuestra mi capacidad para abordar un ciclo completo de QA, desde la documentación funcional y el diseño de casos de prueba manuales, hasta la implementación de soluciones de automatización E2E con foco en la mantenibilidad.
 
