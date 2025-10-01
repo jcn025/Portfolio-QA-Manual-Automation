@@ -1,5 +1,5 @@
 describe('Contacto', () => {
-  it('Aviso de "mensaje neviado con éxito"', () => {
+  it('Aviso de "mensaje enviado con éxito y confirmación de envío"', () => {
   // 1. INICIO DEL FLUJO
     cy.visit('https://talentolab-test.netlify.app/')
     // 2. INGRESO DE DATOS
