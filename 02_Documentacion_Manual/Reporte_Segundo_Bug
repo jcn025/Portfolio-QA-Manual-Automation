@@ -1,0 +1,48 @@
+# Reporte de Bug: 
+Fallo Crítico: El Sistema Permite el Registro con Contraseñas Inválidas.  (US-2 F3 RF3)
+
+🖥️Entorno: Web 
+Versión del navegador: Microsoft Edge Versión 139.0.3405.86 (Compilación oficial) (64 bits)
+Sistema Operativo: Windows 10
+
+Severidad: Crítica
+Prioridad: Crítica
+
+📝Descripción
+El sistema falla en aplicar la validación de seguridad de la contraseña, permitiendo el registro exitoso de usuarios con contraseñas que NO cumplen el formato requerido (ej: solo 4 letras, sin caracteres especiales ni números). Esto viola el Requisito de Seguridad (US-3).
+
+⚠️Precondiciones
+Estar en la sección de registro y contar con un archivo PDF para cargar.
+
+🔢Pasos para reproducir
+1. Ingresar a la página
+2. Dar clic en el botón “Regístrate”
+3. Ingresar un Nombre de Prueba (ej: "Juan Pérez") en el campo “Nombre”.
+4. Ingresar un Email  de prueba válido (ej: "test@correo.com").
+5. Ingresar una Contraseña Inválida (ej: "aaaa") en el campo "Contraseña".
+6. Dar clic al botón "Enviar" (si aplica, o esperar).
+7. Seleccionar y cargar un archivo genérico en formato PDF.
+8. Dar clic al botón “Registrarse”.
+
+❌Resultado actual
+El proceso de registro finaliza exitosamente y el usuario es redirigido a la página de inicio, a pesar de usar una contraseña no válida. No se muestra ningún aviso o mensaje de error.
+
+✅Resultado esperado
+El sistema debe impedir el registro y mostrar un mensaje de error claro indicando los requisitos mínimos de la contraseña.
+
+📷🎥Evidencias
+Video:
+https://vimeo.com/1122370088?share=copy
+
+Captura de pantalla: 
+(Evidencias_Bugs/Evidencia_Imagen_Bug_US2_F3_RF3)
+
+📊Estado
+Abierto
+
+🔒Observación de seguridad: Actualmente, el sistema permite registrar usuarios con contraseñas débiles (ej. solo 4 letras), esto hace que sea candidata a ser fácilmente vulnerada.
+Sugerencia: Es recomendable que la validación esté implementada tanto en el frontend como en el backend para evitar que un atacante omita la verificación desde el navegador.
+
+
+
+
