@@ -25,14 +25,19 @@ Este proyecto se realiza en un **entorno exclusivamente educativo** con fines de
   
 ## 📂 Contenido del Repositorio
 
----
+1. 01_Documentacion_Manual
+Esta carpeta contiene los documentos base del proyecto y los entregables de QA:
 
+Documento	Contenido Principal
+Requerimientos.pdf	Documento que detalla las Épicas (Contacto y Registro), las Features (F1 a F4), Historias de Usuario (US), Criterios de Aceptación (CA), Requisitos Funcionales (RF), Requisitos No Funcionales (RNF), manejo de error (ME) para cada historia de usuario y priorización de cada elemento (Alta y Media).
 
+Casos de prueba.pdf	Matriz de Casos de Prueba (CP) con trazabilidad a los requerimientos (ej: US-1 F1., US-2 F3.). La matriz incluye los pasos detallados, el Resultado Esperado y el Estado de Ejecución de cada prueba (Pasó/Falló).
+
+Reporte_Primer_Bug.md	Reporte de un bug de Severidad Mayor y Prioridad Alta. Documenta el fallo en el formulario de Contacto, donde la aplicación expone un error de código sin procesar en la interfaz.
+Reporte_Segundo_Bug.md	Reporte de un bug de Severidad Crítica y Prioridad Crítica. Detalla la violación a la seguridad (US-3) por la omisión de validación de contraseña, permitiendo el registro con credenciales débiles.
 
 ---
 ## ⚡ Instrucciones de ejecución
-
-
 
 1. Clonar el Repositorio:
    git clone https://github.com/jcn025/Portfolio-QA-Manual-Automation.git
