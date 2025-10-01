@@ -1,52 +1,48 @@
-# 🚀 Tech Lab - Portfolio Julieta Cosentino
+# 🚀 Talento Lab - Portfolio Julieta Cosentino
 
-Este repositorio contiene el portfolio de pruebas automatizadas del proyecto *"Tech Lab"*.  
-Incluye *casos de prueba manuales y automatizados (Cypress)*, documentación y reportes de hallazgos.  
-El objetivo es *demostrar competencias en QA, testing funcional, pruebas de seguridad y experiencia de usuario (UX)*.
+## Portfolio QA: De Pruebas Manuales a Automatización (Cypress/JS)
+
+Este repositorio contiene la **evidencia QA integral** para la aplicación de prueba **Talentolab** (enlace: https://talentolab-test.netlify.app/).
+
+El proyecto demuestra mi capacidad para abordar un ciclo completo de QA, desde la **documentación funcional** y el **diseño de casos de prueba manuales**, hasta la **implementación de soluciones de automatización E2E** con foco en la mantenibilidad.
+
+---
+
+## 🛡️ Ética y Alcance del Testing
+
+Este proyecto se realiza en un **entorno exclusivamente educativo** con fines de **desarrollo de portfolio QA**.
+
+* **Alcance:** El testing se limita a la funcionalidad pública de la aplicación.
+* **Privacidad:** No se han utilizado ni comprometido datos sensibles, información personal o credenciales reales de usuarios.
 
 ---
 
-## ⚠ Ethical Testing
+## 🎯 Demostración de Competencias Clave
 
-Todos los casos de prueba fueron realizados sobre un proyecto educativo con fines exclusivamente de aprendizaje.  
-❌ No se incluyen datos sensibles ni información real de usuarios.  
-Este contenido fue elaborado en el marco del desarrollo del *portfolio personal de QA*.
-
----
-## 🗂 Estructura del repositorio
-
-tech-lab-portfolio Julieta Cosentino/
-│
-├─ docs/             📄 documentación general, screenshots, reportes
-├─ tests/
-│   ├─ manual/       📝 casos de prueba manuales por HU / feature
-│   └─ automated/    ⚡ tests automatizados con Cypress
-└─ README.md         📖 guía y descripción del proyecto
+* **Fundamentos de QA:** Capacidad para elaborar documentación funcional (Historias de Usuario, Casos de Prueba, Reportes de Defectos).
+* **Diseño de Pruebas:** Implementación de casos de prueba positivos y negativos.
+* **Automatización E2E:** Desarrollo de pruebas de extremo a extremo utilizando **Cypress** con **JavaScript**.
+  
+## 📂 Contenido del Repositorio
 
 ---
-## ⚡ Cómo ejecutar tests automatizados con Cypress
-
-1. *Clonar el repositorio:*
-   ```bash
-   git clone https://github.com/jcn025/tech-lab-portfolio.git
-
-2. Instalar dependencias:
-
-npm install
-
-
-3. Abrir Cypress (interfaz gráfica):
-
-npm run cypress:open
-
-
-4. Ejecutar tests en consola:
-
-npm run cypress:run
 
 
 
-> Los tests automatizados se encuentran en tests/automated/.
+---
+## ⚡ Instrucciones de ejecución
+
+
+
+1. Clonar el Repositorio:
+   git clone https://github.com/jcn025/Portfolio-QA-Manual-Automation.git
+3. Instalar Dependencias:
+   npm install
+5. Ejecutar Pruebas E2E (Terminal):
+   npx cypress run --spec "cypress/e2e/US-2 F4.-test.cy.js"
+
+
+---
 
 
 
