@@ -11,7 +11,7 @@ Fallo Funcional (US-1 F2): La Aplicación Expone un Error de Código al Enviar e
 **Prioridad:** Alta
 
 ## 📝 Descripción
-Al hacer clic en el botón "Enviar", la aplicación no muestra la confirmación esperada, sino que expone un **error de código sin procesar** directamente en la interfaz. Esto confunde al usuario y no permite saber si la acción se completó, resultando en un fallo de la funcionalidad de contacto.
+Al hacer clic en el botón "Enviar", la aplicación no muestra la confirmación esperada, sino que expone un error de código sin procesar directamente en la interfaz. Esto confunde al usuario y no permite saber si la acción se completó, resultando en un fallo de la funcionalidad de contacto.
 
 ## ⚠️ Precondiciones
 1. Usuario no logueado.
@@ -19,16 +19,16 @@ Al hacer clic en el botón "Enviar", la aplicación no muestra la confirmación 
 ## 🔢 Pasos para Reproducir
 1. Ingresar a la página: [Incluye la URL exacta aquí, ej: https://talentolab-test.netlify.app/]
 2. Hacer scroll hacia abajo hasta llegar al formulario de contacto.
-3. Ingresar **Nombre de Prueba** (ej: "Maria Molinari”) en el campo “Nombre”.
-4. Ingresar **Email Válido** (ej: "mariamolinari@gmail.com") en el campo “Email”.
-5. Colocar **texto genérico** (ej: "Mensaje de prueba") en el área de texto.
+3. Ingresar Nombre de Prueba (ej: "Maria Molinari”) en el campo “Nombre”.
+4. Ingresar Email Válido (ej: "mariamolinari@gmail.com") en el campo “Email”.
+5. Colocar texto genérico (ej: "Mensaje de prueba") en el área de texto.
 6. **Hacer clic** en el botón “Enviar”.
 
 ## ❌ Resultado Actual
-El sistema **muestra en pantalla el texto de error literal**: `Hubo un error: Unexpected token :’<’` en lugar de una respuesta amigable o el mensaje de éxito.
+El sistema muestra en pantalla el texto de error literal: `Hubo un error: Unexpected token :’<’` en lugar de una respuesta amigable o el mensaje de éxito.
 
 ## ✅ Resultado Esperado
-El sistema **DEBE** mostrar la confirmación de envío (**"Mensaje enviado con éxito"**, según US-2 F2) o, en caso de fallo, un mensaje de error amigable.
+El sistema debe mostrar la confirmación de envío ("Mensaje enviado con éxito", según US-2 F2) o, en caso de fallo, un mensaje de error amigable.
 
 ## 📷🎥 Evidencias
 Video:
