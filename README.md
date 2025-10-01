@@ -42,6 +42,8 @@ Reporte_Segundo_Bug.md	Reporte de un bug de Severidad Crítica y Prioridad Crít
    
 Esta carpeta contiene todo el material de soporte para la documentación de los fallos:
 
+Trazabilidad_y_Diseño_Automatizacion.pdf: Documento de diseño lógico de los casos de prueba CP-001 y CP-002 
+
 Evidencia en Video: Enlaces directos a los videos de Vimeo que demuestran la reproducción paso a paso de los dos bugs reportados.
 
 Capturas de Pantalla: Archivos de imagen incrustados en los reportes de Markdown que muestran la evidencia estática de los fallos.
