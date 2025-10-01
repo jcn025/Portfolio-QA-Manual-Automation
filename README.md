@@ -46,7 +46,7 @@ Trazabilidad_y_Diseño_Automatizacion.pdf: Documento de diseño lógico de los c
 
 Evidencia en Video: Enlaces directos a los videos de Vimeo que demuestran la reproducción paso a paso de los dos bugs reportados.
 
-Capturas de Pantalla: Archivos de imagen incrustados en los reportes de Markdown que muestran la evidencia estática de los fallos.
+Capturas de Pantalla: Archivos de imagen incrustados en los reportes de Markdown que muestran la evidencia de los fallos.
 
 03. 03_Evidencias_Automation
 
