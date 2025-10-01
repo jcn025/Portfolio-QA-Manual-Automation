@@ -4,13 +4,13 @@
 
 Este repositorio contiene la **evidencia QA integral** para la aplicación de prueba **Talentolab** (enlace: https://talentolab-test.netlify.app/).
 
-El proyecto demuestra mi capacidad para abordar un ciclo completo de QA, desde la **documentación funcional** y el **diseño de casos de prueba manuales**, hasta la **implementación de soluciones de automatización E2E** con foco en la mantenibilidad.
+El proyecto demuestra mi capacidad para abordar un ciclo completo de QA, desde la documentación funcional y el diseño de casos de prueba manuales, hasta la implementación de soluciones de automatización E2E con foco en la mantenibilidad.
 
 ---
 
 ## 🛡️ Ética y Alcance del Testing
 
-Este proyecto se realiza en un **entorno exclusivamente educativo** con fines de **desarrollo de portfolio QA**.
+Este proyecto se realiza en un **entorno exclusivamente educativo** con fines de desarrollo de portfolio QA.
 
 * **Alcance:** El testing se limita a la funcionalidad pública de la aplicación.
 * **Privacidad:** No se han utilizado ni comprometido datos sensibles, información personal o credenciales reales de usuarios.
@@ -35,6 +35,14 @@ Casos de prueba.pdf	Matriz de Casos de Prueba (CP) con trazabilidad a los requer
 
 Reporte_Primer_Bug.md	Reporte de un bug de Severidad Mayor y Prioridad Alta. Documenta el fallo en el formulario de Contacto, donde la aplicación expone un error de código sin procesar en la interfaz.
 Reporte_Segundo_Bug.md	Reporte de un bug de Severidad Crítica y Prioridad Crítica. Detalla la violación a la seguridad (US-3) por la omisión de validación de contraseña, permitiendo el registro con credenciales débiles.
+
+2. 02_Evidencia_Bugs
+   
+Esta carpeta contiene todo el material de soporte para la documentación de los fallos:
+
+Evidencia en Video: Enlaces directos a los videos de Vimeo que demuestran la reproducción paso a paso de los dos bugs reportados.
+
+Capturas de Pantalla: Archivos de imagen incrustados en los reportes de Markdown que muestran la evidencia estática de los fallos.
 
 ---
 ## ⚡ Instrucciones de ejecución
