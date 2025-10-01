@@ -38,7 +38,7 @@ Reporte_Primer_Bug.md	Reporte de un bug de Severidad Mayor y Prioridad Alta. Doc
 
 Reporte_Segundo_Bug.md	Reporte de un bug de Severidad Crítica y Prioridad Crítica. Detalla la violación a la seguridad (US-3) por la omisión de validación de contraseña, permitiendo el registro con credenciales débiles.
 
-2. 02_Evidencia_Bugs
+2. 02_Evidencias_Bugs
    
 Esta carpeta contiene todo el material de soporte para la documentación de los fallos:
 
